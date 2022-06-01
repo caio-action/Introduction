@@ -7,13 +7,14 @@ import Portfolio from './Components/portfolio/Portfolio'
 import Testimonials from './Components/testimonials/Testimonials'
 import Contact from './Components/contact/Contact'
 import Footer from './Components/footer/Footer'
-
+import About from './Components/about/About'
 
 const App = () => {
   return (
   <>
     <Header />
     <Nav />
+    <About />
     <Experience />
     <Services />
     <Portfolio />
