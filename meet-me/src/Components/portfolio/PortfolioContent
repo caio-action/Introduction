@@ -1,0 +1,29 @@
+// import React from 'react'
+// import './portfolio.css'
+// import project1 from '../../Assets/project1-img.png'
+
+// const PortfolioContent = (props) => {
+//   return (
+//     <section id='portfolio'>
+//       <h5>My Recent Projects</h5>
+//       <h2>
+//         Portfolio
+//       </h2>
+//       <div className="container portfolio_container">
+//         <article className='portfolio item'>
+//           <div className="portfolio__item-image">
+//             <img className='img' alt='EngajaBlack Project'></img>
+
+//             <h3> EngajaBlack</h3>
+//             <a href='https://github.com/caio-action/Introduction' className='btn' target={'blank'}>Check on Github</a>
+//             <a href='https://eblack.netlify.app/' className='btn btn-primary' target={'blank'}>Live Demo</a>
+//           </div>
+          
+
+//         </article>
+//       </div>
+//     </section>
+//   )
+// }
+
+// export default PortfolioContent
