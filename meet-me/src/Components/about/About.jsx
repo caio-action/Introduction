@@ -2,8 +2,9 @@ import React from 'react'
 import './about.css'
 import Profile from '../../Assets/eu2.png'
 import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
+import { TbCertificate } from 'react-icons/tb'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { FiUsers } from 'react-icons/fi'
 const About = () => {
   return (
     <section id='about'>
@@ -23,18 +24,24 @@ const About = () => {
               <small> 1-2 Years Working</small>
             </article>
             <article className='about__card' >
-              <FiUsers className='about__cardicon' />
-              <h5>Clients</h5>
-              <small> Many in the future </small>
+              <TbCertificate className='about__cardicon' />
+              <h5>FullStack Development Degree</h5>
+              <small><a href="https://drive.google.com/file/d/1U5jPrPq6PHCK0lHxELywDvdg1RjC_Svf/view" target={'blank'}>Check it out</a> </small>
             </article>
             <article className='about__card' >
               <VscFolderLibrary className='about__cardicon' />
               <h5>Projects</h5>
               <small> 10+ complete Projects</small>
             </article>
+            <article className='about__card' >
+              <FiUsers className='about__cardicon' />
+              <h5>Clients</h5>
+              <small> Loading... </small>
+            </article>
           </div>
 
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore similique labore in odio vel, tenetur non sequi dolor vitae error autem quas quam quis nihil aut repellat, nesciunt doloremque maiores.</p>
+          <p>I am a proactive, curious, super sociable, organized and hyperactive person !
+Being a developer showed me how to concentrate my hyper focus more productively, sharpening my self learning. Besides being fluent in English and had amazing experiences working with people of many country, I'm also very communicative and enjoy a lot be part of the teamwork, that drives me to always have a great performance at leadership positions.</p>
         <a href='#contact' className='btn btn-primary'> Let's Chat !</a>
         </div>
       </div>
