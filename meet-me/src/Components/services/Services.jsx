@@ -15,24 +15,24 @@ const Services = () => {
           <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>Desing Thinking</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>Clean Code</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>HTML</p>
           </li><li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>CSS, SCSS, SASS</p>
           </li><li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>Bootstrap</p>
           </li><li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>Prototyping</p>
           </li>
         </ul>
         </article>
@@ -44,24 +44,24 @@ const Services = () => {
           <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>MVC, CRUD</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>API</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>POO</p>
           </li><li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>SSR</p>
           </li><li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>DB & web servers</p>
           </li><li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>Typescript</p>
           </li>
         </ul>
         </article>
@@ -72,24 +72,17 @@ const Services = () => {
           <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>Agile Methods</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>SPA</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+            <p>SEO</p>
           </li><li>
-            <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
-          </li><li>
-            <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
-          </li><li>
-            <BiCheck className='service__list-icon' />
-            <p>Lorem, ipsum dolor sit !</p>
+          
           </li>
         </ul>
         </article>
