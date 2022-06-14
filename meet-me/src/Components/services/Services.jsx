@@ -19,21 +19,38 @@ const Services = () => {
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Clean Code</p>
+            <p>Agile Development</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>Figma</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
             <p>HTML</p>
-          </li><li>
+          </li>
+          <li>
             <BiCheck className='service__list-icon' />
             <p>CSS, SCSS, SASS</p>
-          </li><li>
-            <BiCheck className='service__list-icon' />
-            <p>Bootstrap</p>
-          </li><li>
+          </li>
+          <li>
             <BiCheck className='service__list-icon' />
             <p>Prototyping</p>
           </li>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>User flow</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>Mockup</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>Wireframe</p>
+          </li>
+          
+       
         </ul>
         </article>
 
@@ -42,6 +59,18 @@ const Services = () => {
           <h3>Web Development</h3>
         </div>
           <ul className='service__list'>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>Clean Code</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>SPA</p>
+          </li>
+          <li>
+            <BiCheck className='service__list-icon' />
+            <p>SEO</p>
+          </li>
           <li>
             <BiCheck className='service__list-icon' />
             <p>MVC, CRUD</p>
@@ -59,33 +88,15 @@ const Services = () => {
           </li><li>
             <BiCheck className='service__list-icon' />
             <p>DB & web servers</p>
-          </li><li>
+          </li>
+          
+          <li>
             <BiCheck className='service__list-icon' />
             <p>Typescript</p>
           </li>
         </ul>
         </article>
-        <article className='service'>
-        <div className="service__head">
-          <h3>Content Creation</h3>
-        </div>
-          <ul className='service__list'>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Agile Methods</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>SPA</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>SEO</p>
-          </li><li>
-          
-          </li>
-        </ul>
-        </article>
+     
         
 
       </div>
