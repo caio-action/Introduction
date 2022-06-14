@@ -15,11 +15,11 @@ const Footer = () => {
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contacts">Contacts</a></li>
       </ul>
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a href=""></a>
         <a href=""></a>
         <a href=""></a>
-      </div>
+      </div> */}
     <div className="footer__copyright">
       <small>&copy;Caio Cavalcante - Fullstack Developer </small>
     

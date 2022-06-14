@@ -116,7 +116,34 @@ const Experience = () => {
               </div>
             </article>
           </div>
+         
         </div>
+        <div className='experience__OS'>
+          <h3>Operational Systems</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>Linux</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>Windows</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+            <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>macOS </h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+          </div>
+          </div>
 
       </div>
     </section>

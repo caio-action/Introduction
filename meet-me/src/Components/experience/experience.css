@@ -1,6 +1,6 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     gap: 2rem;
 }
 
@@ -37,6 +37,9 @@
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+.experience__OS {
+
 }
 
 /* Media querie tablet */
