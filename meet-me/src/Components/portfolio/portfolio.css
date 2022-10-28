@@ -18,6 +18,8 @@
 }
 
 .portfolio__item-image {
+    height: 40%;
+    text-align: center;
     border-radius: 1.5rem;
     overflow: hidden;
 }
@@ -27,6 +29,7 @@
 }
 
 .portfolio__item-cta {
+    
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;

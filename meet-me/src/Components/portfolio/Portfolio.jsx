@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import project1 from '../../Assets/project1-img.png'
+import project2 from '../../Assets/project2-img.png'
+
 
 const data = [
   {
@@ -12,10 +14,10 @@ const data = [
   },
   {
     id: 2,
-    image: project1,
-    title: 'EngajaBlack',
-    github: 'https://github.com/caio-action/Introduction',
-    demo: 'https://eblack.netlify.app/'
+    image: project2,
+    title: 'Task Stopwatch',
+    github: 'https://github.com/caio-action/Alura-studies',
+    demo: 'https://cronometro-de-tarefas.netlify.app/'
   },
   {
     id: 3,
@@ -73,12 +75,12 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={image} alt={title}></img>
 
+                </div>
                   <h3>{title}</h3>
                   <div className="portfolio__item-cta">
                     <a href={github} className='btn' target={'blank'}>Check on Github</a>
                     <a href={demo} className='btn btn-primary' target={'blank'}>Live Demo</a>
                   </div>
-                </div>
               </article>
             )
 
